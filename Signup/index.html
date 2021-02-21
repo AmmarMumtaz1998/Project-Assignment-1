@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+    <!-- header -->
+        <nav style="background-color: darkgoldenrod;">   
+            <img class="logo" src="../images/logo.png" alt="logo">
+            <span onclick="myFunction()"> &#9776; </span>
+        <ul class="navl" id="nav-items">
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="../Menu/index.html">Menu</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="../Dashboard/index.html">Dashboard</a></li>
+                <li><a href="../Sign in/index.html">Sign in / Sign up</a></li>
+            </ul>   
+        </nav> 
+ 
+    <!-- <button id="back-btn"><a href="../Sign in/index.html"> Back to Sign In </a></button> -->
+        
+    <!-- Heading -->
+    <h1 style="text-align: center;">
+        <u class="u"><b>Register Yourself to get Discounts</b></u> 
+     </h1>
+
+    <fieldset id="div">
+
+            <h3 class="h3"><u>Please fill all the information carefully.</u></h3>
+    
+    <!-- Starting signup page -->
+
+    <form action="">
+        
+        <!-- Search bar -->
+             <!-- <div style="text-align: right;">
+                 <b>Search:</b>
+                 <input type="search" placeholder="Search">
+             </div><br> -->
+            <h2 style="text-align: center;"><u>Signup Page</u></h2>
+        <!-- First and Last Name -->
+        <div>
+            First Name:
+            <input type="text" placeholder="Enter Your First Name" required name="First Name"><br><br>
+
+            Last Name:
+            <input type="text" placeholder="Enter Your Last Name" required name="Last Name"><br>
+        </div><br>
+
+        <!-- Username -->
+        <div>
+            Username:
+            <input type="text" placeholder="Enter Your Username" required name="User name">
+        </div><br>
+
+        <!-- E-mail -->
+        <div>
+            E-mail:
+            <input type="email" placeholder="Enter Your Email" required name="E-mail">
+        </div><br>
+
+        <!-- Password -->
+        <div>
+            Password:
+            <input type="password" placeholder="Enter Your Password" required name="Password"><br><br>
+            Re-type Password:
+            <input type="password" placeholder="Enter Your Password" required name="Password">
+        </div><br>
+
+        <!-- Gender -->
+        <div>
+           Gender:
+            <input type="radio" required name="gender"> Male
+            <input type="radio" required name="gender"> Female
+        </div><br>
+
+        <!-- Date of Birth -->
+        <div>
+            Date Of Birth:
+            <input type="date" required name="dob">
+        </div><br>
+
+        <!-- Phone number -->
+        <div>
+            Phone no:
+            <input type="container" placeholder="0300-0000000" required name="Phone no.">
+        </div><br>
+
+        <!-- Address -->
+        <div>
+            Address:
+            <input type="container" required name="Address">
+        </div><br>
+
+        <!-- Picture -->
+        <div>
+            Add a Picture:
+           <input type="file" accept="image/*" name="Picture">
+        </div><br>
+
+        <!-- Select Month in Dropbox-->
+        <div>
+            Select Joining Month:
+            <select name="Month">
+                <option value="Select Month"><b>Select Month</b></option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+        </div><br>
+        
+        <!-- checkbox -->
+        <div>
+           <b>Select Your Favourite dish:</b> <br>
+            <input type="checkbox" name="" id="">Biryani<br>
+            <input type="checkbox" name="" id="">Nihaari<br>
+            <input type="checkbox" name="" id="">Achaar Gosht<br>
+            <input type="Submit">
+        </div><br>
+
+        <!-- Text area -->
+        <div>
+            Write about your Favourite dish:<br>
+            <textarea name="" id="" cols="30" rows="10"> </textarea>
+        </div><br>
+
+        <!-- Button -->
+        <input type="Reset" name="Button">
+        <input type="submit" name="Button">
+
+    </form>
+    </fieldset>
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("nav-items");
+
+            if(x.style.display == "block")
+            {
+                x.style.display = "none"
+            }
+            else
+            {
+                x.style.display = "block"
+            }
+        }
+    </script>
+
+</body>
+</html>

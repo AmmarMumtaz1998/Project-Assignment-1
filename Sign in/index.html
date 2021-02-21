@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <a href="../index.html">Back To Home</a> -->
+    
+        <!--header-->
+    <nav>  
+        <img class="logo" src="../images/logo.png" alt="logo">
+        <span onclick="myFunction()"> &#9776; </span>
+        <ul class="navl" id="nav-items">
+            <li><a href="../Index.html">Home</a></li>
+            <li><a href="../Menu/index.html">Menu</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="../Dashboard/index.html">Dashboard</a></li>
+            <li><a href="./index.html">Sign in / Sign up</a></li>
+        </ul>   
+    </nav> 
+
+     <!-- Heading -->
+    <h1 style="text-align: center;">
+        <u class="u">Login Page of Mughal-e-Azam Restaurant</u>
+    </h1>
+    
+    <div>
+        <!-- Login Form -->
+        <form action="" id="div" >
+            
+             <div class="div1">   
+                 Username:
+                <input type="text" placeholder="Enter your Username" required name="Username">
+             </div><br>
+
+             <div class="div2">
+                 Password:
+                 <input type="password" placeholder="Enter your Password" required name="Password">
+             </div><br>
+             <!-- button -->
+             <div class="div3">
+                 <input type="Submit" name="Submit Button">
+             </div>
+            <div>
+        <a class="id" href="../signup/index.html">Click here to create your Account</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("nav-items");
+
+            if(x.style.display == "block")
+            {
+                x.style.display = "none"
+            }
+            else
+            {
+                x.style.display = "block"
+            }
+        }
+    </script>
+
+</body>
+</html>

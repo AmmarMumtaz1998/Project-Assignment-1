@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <!-- <a href="../index.html">Back to Home</a> -->
+
+        <!-- header -->
+        <nav>   
+            <img class="logo" src="../images/logo.png" alt="logo">
+            <span onclick="myFunction()"> &#9776; </span>
+            <ul class="navl" id="nav-items">
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="../Menu/index.html">Menu</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="./index.html">Dashboard</a></li>
+                <li><a href="../Sign in/index.html">Sign in / Sign up</a></li>
+            </ul>   
+        </nav> 
+
+        <h1 style="text-align: center;"><b><u class="u">Dashboard</u></b></h1>
+
+
+         <!-- Search bar -->
+    <!-- <div style="text-align: right;">
+         <b>Search:</b>
+         <input type="search" placeholder="Search">
+         </div> -->
+
+        <h3 class="h3">
+            <b>Our Registered Clients:</b>
+        </h3>
+    
+        <table id="div" border="1px" color="black">
+            <div>
+                <tr>
+                    <th>Sr.#</th>
+                    <th>Name</th>
+                    <th>E-mail</th>
+                    <th>Phone no.</th>
+                    <th>Address</th>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td>1</td>
+                    <td>Ammar Mumtaz</td>
+                    <td>ammarhaider1998@gmail.com</td>
+                    <td>0300-1234567</td>
+                    <td>Tariqabad/Faisalabd</td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td>2</td>
+                    <td>Mudassar Iftikhar</td>
+                    <td>mudassar@gmail.com</td>
+                    <td>0340-1234567</td>
+                    <td>Abdullahpur/Faisalabad</td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td>3</td>
+                    <td>Fahim Jameel</td>
+                    <td>fahim@gmail.com</td>
+                    <td>0320-1234567</td>
+                    <td>Ghulamabad/Faisalabad</td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td>4</td>
+                    <td>Shahzaib Mirza</td>
+                    <td>shahzaib@gmail.com</td>
+                    <td>0312-1234567</td>
+                    <td>Abdullahpur/Faisalabad</td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td>5</td>
+                    <td>Umar Ashraf</td>
+                    <td>umar@gmail.com</td>
+                    <td>0335-1234567</td>
+                    <td>Abdullahpur/Faisalabad</td>
+                </tr>
+            </div>
+
+        </table>
+    
+    <script>
+        function myFunction(){
+            var x = document.getElementById("nav-items");
+
+            if(x.style.display == "block")
+            {
+                x.style.display = "none"
+            }
+            else
+            {
+                x.style.display = "block"
+            }
+        }
+    </script>
+   
+    </body>
+</html>

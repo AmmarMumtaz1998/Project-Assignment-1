@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: darkgoldenrod;
+    background-size: cover;
+}    
+input{
+        background-color: darkgoldenrod;
+        color: black;
+}    
+nav{
+    background-color: darkgoldenrod;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    width: 110px;
+    height: 30px;
+    background-color: black;
+    line-height: 50px;
+    margin: 10px;
+    border-radius: 15px;
+}
+nav span{
+    float: right;
+    color: black;
+    font-size: 2.3em;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+    margin: 0 20px;
+}
+#search input{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+@media only screen and (max-width:700px){
+    nav span{
+        display: block;
+    }
+    nav ul li a{
+        display: block;
+        width: 100%;
+        background-attachment: rgba,(184, 134, 11, 0.1);
+    }
+    nav ul{
+        display: none;
+    }
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: darkgoldenrod;
+    background-color: black;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background-color: darkgoldenrod;
+    color: black;
+    transition: .5s;
+}
+.u{
+    color: darkgoldenrod;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: 40px;
+}
+.li{
+    text-align: left;
+    font-size: 20px;
+}
+.li,hr{
+    border-color: rgba(211, 191, 11, 0.849);
+}
+.head{
+    font-size: 25px;
+    background-color: black;
+    color: darkgoldenrod;
+    display: inline;
+    margin-left: 50px;
+}
+fieldset{
+   border: 100%
+}
+.class{
+    border-color: darkgoldenrod;
+    margin: 10px,500px;
+}

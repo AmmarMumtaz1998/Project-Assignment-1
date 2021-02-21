@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: darkgoldenrod;
+    background-size: cover;
+} 
+nav{
+    background-color: darkgoldenrod;
+    /* height: 50px; */
+    width: 100%;
+    /* position: fixed; */
+}
+.logo{
+    width: 110px;
+    height: 30px;
+    background-color: black;
+    line-height: 50px;
+    margin: 10px;
+    border-radius: 15px;
+}
+nav span{
+    float: right;
+    color: black;
+    font-size: 2.3em;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+    margin: 0 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: darkgoldenrod;
+    background-color: black;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background-color: darkgoldenrod;
+    color: black;
+    transition: .5s;
+}
+@media only screen and (max-width:700px){
+    nav span{
+        display: block;
+    }
+    nav ul li a{
+        display: block;
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+}
+.u{
+    color: darkgoldenrod;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: 40px;
+}
+#div{
+    text-align: center;
+    border: 5px;
+    border-color: darkgoldenrod;
+    border-style: ridge;
+    box-sizing: content-box;
+    margin-top: 100px;
+}
+.div1{
+    margin-top: 20px;
+}
+.div2{
+    margin-top: 10px;
+}
+.div3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.id{
+    margin-right: 10px;
+    color: darkgoldenrod;
+    float: right;
+}
